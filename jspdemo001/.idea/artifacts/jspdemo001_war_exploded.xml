@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jspdemo001:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jspdemo001_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jspdemo001/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jspdemo001" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.25" />
+          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.5" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="Maven: io.netty:netty-all:4.0.25.Final" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
